@@ -1,0 +1,1623 @@
+@import url('https://fonts.googleapis.com/css2?family=Grandstander:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&display=swap'); /*Titulos*/
+@import url('https://fonts.googleapis.com/css2?family=Markazi+Text:wght@400;500;600;700&display=swap'); /*Texto*/
+
+
+body{
+    margin: 0;
+    padding: 0;
+  }
+  h1,h2,h3,h4,h5,h6,{
+    font-family: 'Grandstander', cursive;
+  
+  }
+  
+  p,button,a,ul,li{
+  
+    font-family: 'Markazi Text', serif;
+    }
+
+    /*INICIO HEADER*/
+    .contenedor{
+      width: 100%;
+      margin: 0 auto;
+      overflow: hidden;
+    }
+    
+header .navbar {
+  width: 100%;
+  top: 0;
+
+
+  }
+header .bg-piel{
+  position: fixed;
+  z-index: 10;
+  background: #d9c1ab;
+}
+
+header a{
+ 
+  font-size: 25px;
+}
+header .container .navbar-collapse  {
+  justify-content: flex-end;
+  
+  
+ 
+}
+
+ header .navbar .container .navbar-collapse ul li a{
+  color:#ffff !important;
+  text-decoration: none;
+  transition: .4s;
+  border-bottom: 2px solid transparent;
+}
+header .navbar .container .navbar-collapse ul li a:hover{
+    color: #ed3a16 !important;
+    border-bottom: 2px solid #ed3a16;
+    }
+
+header .contentheader{
+  width: 100%;
+  position:relative;
+  background: #d9c1ab;
+padding: 135px 0 45px;
+}
+header .row{
+  max-width: 100%;
+}
+header .row .col-md-4.retratos img{
+  margin-left: 80px;
+    width: 420px;
+    max-width: 500px;
+    margin-top: -10px;
+    position: relative;
+    z-index: 1;
+    transition: 4s;
+}
+header .row .col-md-4.retratos img:hover{
+
+  transform: rotate(360deg);
+
+
+}
+header .row .col-md-8.hola .container {
+  position: relative;
+  background: #c17767;
+  padding-top: 130px;
+  padding-bottom: 330px;
+  margin-right: -30px;
+}
+ header .row .col-md-8.hola .container h1{
+   position: absolute;
+   color: black;
+   font-family: 'Grandstander', cursive;
+   font-size: 50px;
+   text-align: center;
+   padding-left: 250px;
+   padding-top: 25px;
+   translate: 4s;
+ } 
+ header .row .col-md-8.hola .container h1:hover{
+transform: scale(1.1);
+ }
+ header .row .col-md-8.hola  img{
+  
+   position: relative;
+   margin-left: 550px;
+   margin-top: -550px;
+
+ }
+ 
+ /*FIN HEADER*/
+ /*INICIO QUIEN SOY*/
+ #quiensoy {
+   width: 100%;
+   position: relative;
+   background: #c17767;
+ }
+#quiensoy .container{
+  padding: 140px 100px 240px;
+ }
+#quiensoy .container .row img{
+   position: absolute;
+   width: 350px;
+   margin-left: -50px;
+   transition: 0.30s;
+
+ }
+ #quiensoy .container .row img:hover{
+   transform: translatex(30px);
+
+ }
+ #quiensoy .container .row .container2 img{
+  position: absolute;
+  width: 50%;
+  margin-left: 120px;
+  margin-top: -30px;
+  transition: 0.1s;
+
+ }
+ #quiensoy .container .row .container2 img:hover{
+transform: translatex(15px);
+ }
+ #quiensoy .container .row .container2 h3{
+   position: absolute;
+   color: white;
+   font-family: 'Grandstander', cursive;
+   font-size: 187%;
+   margin-left: 155px;
+   z-index: 1;
+   padding-top: 15px;
+
+   }
+
+   #quiensoy .container .row .container2 p{
+    color: black;
+    font-family: 'Markazi Text', serif;
+    font-size: 25px;
+    text-align: center;
+    padding-top: 140px;
+    padding-left: 20px;
+    transition: .4s;
+   }
+   #quiensoy .container .row .container2 p:hover{
+    transform: scale(1.1);
+
+   }
+   #quiensoy .container .row .container3 img{
+     position: absolute;
+     padding-top: 70px;
+     width: 290px;
+   }
+   #quiensoy .container .row .container3 h4{
+     position: absolute;
+    color: #ed3a16;
+    font-family: 'Grandstander', cursive;
+    font-size: 20px;
+    padding-left: 170px;
+    padding-top: 60px;
+    z-index: 1;
+   }
+   #quiensoy .container .row .container3 h5{
+     position: relative;
+     color: white;
+     font-family: 'Grandstander', cursive;
+     top: 125px;
+     font-size: 18px;
+
+   }
+   #quiensoy .container .row .container3 i{
+     color: black;
+     font-family: 'Markazi Text', serif;
+     font-size: 22px;
+   }
+   /*FIN SECCION QUIEN SOY*/
+
+   /*INICIO HABILIDADES*/
+ #habilidades {
+    width: 100%;
+    position: relative;
+    background:  #d9c1ab;
+  }
+  #habilidades  .container{
+   padding: 130px 100px 95px;
+
+  
+
+  }
+  #habilidades  .container .row .col-md-6.photoshop h3{
+    position: relative;
+    font-family: 'Grandstander', cursive;
+    color: #fff;
+    margin-left: 20%;
+    transition: 0.1s;
+  }
+  #habilidades  .container .row .col-md-6.photoshop h3:hover{
+    transform: translatex(15px);
+  }
+  #habilidades  .container .row .col-md-6.photoshop img{
+    position:relative;
+   
+  margin-left: 17%;
+  width: 180px;
+  transition: .4s;
+
+  }
+  #habilidades  .container .row .col-md-6.photoshop img:hover{
+    transform:scale(1.1);
+  }
+  #habilidades  .container .row .col-md-6.ilustrator h3{
+    position: relative;
+    font-family: 'Grandstander', cursive;
+    color: #fff;
+    margin-left: 48%;
+    transition: 0.1s;
+  }
+  #habilidades .container .row .col-md-6.ilustrator h3:hover{
+    transform: translatex(15px);
+
+    }
+  #habilidades .container .row .col-md-6.ilustrator img{
+    position: relative;;
+    
+   margin-left: 48%;
+   transition: .4s;
+
+  }
+  #habilidades .container .row .col-md-6.ilustrator img:hover{
+    transform: scale(1.1);
+
+  }
+  #habilidades .container .row .col-md-12.habilidades img{
+    position: relative;
+    padding-left: 320px;
+    padding-top: 100px;
+    transition: .4s;
+  }
+  #habilidades .container .row .col-md-12.habilidades img:hover{
+    transform: translatey(10px);
+  }
+  #habilidades .container .row .col-md-12.habilidades h2{
+    position: absolute;
+    color: white;
+    font-family: 'Grandstander', cursive;
+    padding-left: 390px;
+    padding-top: 130px;
+    z-index: 1;
+    font-size: 35px;
+  }
+  #habilidades .container .row .col-md-6.fotografia img{
+    position: relative;
+    padding-left: 70px;
+
+    width: 270px;
+    transition: .4s;
+  }
+  #habilidades .container .row .col-md-6.fotografia img:hover{
+    transform: scale(1.1);
+
+  }
+
+  #habilidades .container .row .col-md-6.fotografia h3{
+    position: relative;
+    color: white;
+    font-family: 'Grandstander', cursive;
+    padding-left: 80px;
+    padding-top: 100px;
+    transition: .4s;
+  }
+  #habilidades .container .row .col-md-6.fotografia h3:hover{
+    transform: translateX(15px);
+
+  }
+  #habilidades .container .row .col-md-6.ingles img{
+    position: relative;
+    padding-left: 230px;
+   
+    width: 410px;
+    transition:0.4s;
+  }
+  #habilidades .container .row .col-md-6.ingles img:hover{
+    transform: scale(1.1);
+  }
+  #habilidades .container .row .col-md-6.ingles h3{
+    position: relative;
+    color: white;
+    font-family: 'Grandstander', cursive;
+    padding-left: 240px;
+    padding-top: 100px;
+    transition: .4s;
+  }
+  #habilidades .container .row .col-md-6.ingles h3:hover{
+    transform: translateX(15px);
+
+  }
+  #habilidades .container .premiere img{
+    position: relative;
+    left: 390px;
+    margin-top: -200px;
+    padding: 0px;
+    transition: .4s;
+  }
+  #habilidades .container .premiere img:hover{
+    transform: scale(1.1);
+  }
+  #habilidades .container  .premiere h3{
+    position: absolute;
+    color: white;
+    font-family: 'Grandstander', cursive;
+    padding-left: 400px;
+    top: 130px;
+  }
+  #habilidades .container .after img{
+    position: relative;
+    left: 390px;
+    margin-top:-210px ;
+    padding: 0px;
+    transition: .4s;
+  }
+  #habilidades .container .after img:hover{
+    transform: scale(1.1);
+  }
+  #habilidades .container  .after h3{
+    position: absolute;
+    color: white;
+    font-family: 'Grandstander', cursive;
+    padding-left: 400px;
+    top: 690px;
+   
+  }
+
+  /*FIN HABILIDADES*/
+
+  /*INICIO EXPERIENCIAS*/
+  #experiencia {
+    width: 100%;
+    position: relative;
+    background: #c17767;
+  }
+  #experiencia .container{
+    padding: 120px 100px 35px;
+   }
+   #experiencia .container1 h2{
+   position: relative;
+     color: white;
+     font-family: 'Grandstander', cursive;
+     z-index: 1;
+   }
+   #experiencia .container1 img{
+   position: relative;
+   margin-right: 10px;
+   margin-top: -95px;
+   transition: 0.2s;
+  }
+  #experiencia .container1 img:hover{
+    transform: translatex(18px);
+  }
+  #experiencia .container2{
+    width: 80%;
+    padding: 60px 50px;
+    position: relative;
+    background: #d9c1ab;
+    margin-top: 50px;
+    margin-left: 90px;
+  }
+  #experiencia .container2 .row .col-md-6.texto1 h4{
+    position: absolute;
+    color: white;
+    font-family: 'Grandstander', cursive;
+    transition:.4s;
+  }
+  #experiencia .container2 .row .col-md-6.texto1 h4:hover{
+    transform: translatex(15px);
+
+  }
+  #experiencia .container2 .row .col-md-6.texto1 b{
+    color: black;
+    font-family: 'Markazi Text', serif;
+    padding-left: 10px;
+  }
+  #experiencia .container2 .row .col-md-6.imagen1 img{
+    position: relative;
+    width: 290px;
+    margin-top: -30px;
+    transition: .4s;
+  } 
+  #experiencia .container2 .row .col-md-6.imagen1 img:hover{
+transform: scale(1.1);
+
+  }
+
+  #experiencia .container2 .row .col-md-6.texto2 h4{
+    position: relative;
+    color: white;
+    font-family: 'Grandstander', cursive;
+    margin-top: 100px;
+    margin-left: 40px;
+transition: .4s;
+  }
+  #experiencia .container2 .row .col-md-6.texto2 h4:hover{
+transform: translateX(-15px);
+  }
+  #experiencia .container2 .row .col-md-6.texto2 b{
+    color: black;
+    font-family: 'Markazi Text', serif;
+    padding-left: 10px;
+  }
+  #experiencia .container2 .row .col-md-6.imagen2 img{
+    position: relative;
+    width: 290px;
+  margin-top: 50px;
+  transition: .4s;
+  } 
+  #experiencia .container2 .row .col-md-6.imagen2 img:hover{
+    transform: scale(1.1);
+
+  }
+  #experiencia .container .row .col-md-6.lado3 img{
+    position: relative;
+   margin-left: -210px;
+   margin-top: -700px;
+   width: 200px;
+  
+  }
+  #experiencia .container .row .col-md-6.lado4 img{
+    position: absolute;
+    margin-left: 479px;
+    margin-top: -580px;
+    width: 180px
+
+  }
+  /*FIN EXPERIENCIAS*/
+  /*INICIO EDUCACIÓN*/
+
+   #educacion{
+    width: 100%;
+    position: relative;
+    background: #d9c1ab;
+
+  }
+  #educacion .container{
+    padding: 120px 100px 120px;
+   }
+   #educacion .container h2{
+     position: relative;
+     color: white;
+     font-family: 'Grandstander', cursive;
+     z-index: 1;
+     }
+     #educacion .container img{
+     position: relative;
+     margin-top: -70px;
+     margin-left: 10px;
+     transition: .3s;
+      }
+      #educacion .container img:hover{
+transform: translateX(15px);
+      }
+      #educacion .container .row .col-md-4.diploma1 h5{
+        color: white;
+        font-family: 'Markazi Text', serif;
+        font-size: 25px;
+        margin-top: 80px;
+        margin-left: -100px;
+      }
+      #educacion .container .row .col-md-4.diploma1 b{
+        color:black;
+        font-family: 'Markazi Text', serif;
+      }
+      #educacion .container .row .col-md-4.diploma1 img{
+       position: absolute;
+      width: 400px;
+      margin-left: -260px;
+      padding-top: 90px;
+      transition: .8s;
+
+      }
+      #educacion .container .row .col-md-4.diploma1 img:hover{
+        transform: scale(1.1);
+      }
+      
+      #educacion .container .row .col-md-4.diploma2 h5{
+        color: white;
+        font-family: 'Markazi Text', serif;
+        font-size: 25px;
+        margin-top: 80px;
+      }
+      #educacion .container .row .col-md-4.diploma2 b{
+        color:black;
+        font-family: 'Markazi Text', serif;
+      }
+      #educacion .container .row .col-md-4.diploma2 img{
+        position: relative;
+        width: 360px;
+        padding-top: 103px;
+        margin-left: -30px;
+        transition:.4s;
+    }
+    #educacion .container .row .col-md-4.diploma2 img:hover{
+transform: scale(1.1);
+    }
+    #educacion .container .row .col-md-4.diploma3 h5{
+      color: white;
+      font-family: 'Markazi Text', serif;
+      font-size: 25px;
+      margin-top: 80px;
+      margin-left: 95px;
+    }
+    #educacion .container .row .col-md-4.diploma3 b{
+      color:black;
+      font-family: 'Markazi Text', serif;
+    }
+    #educacion .container .row .col-md-4.diploma3 img{
+      position: relative;
+      width: 360px;
+      padding-top: 75px;
+      margin-left: 30px;
+      transition: .4s;
+  }
+  #educacion .container .row .col-md-4.diploma3 img:hover{
+transform: scale(1.1);
+  }
+  #educacion .container .row .col-md-6.lado5 img{
+      position: absolute;
+      margin-top: -700px;
+      margin-left: -430px;
+      transform: none;
+      width: 150px;
+  }
+    
+  #educacion .container .row .col-md-6.lado6 img{
+    position: absolute;
+    margin-top: -390px;
+    margin-left: 290px;
+    transform: none;
+    width: 140px;
+}
+  
+    /*FIN EDUCACIÓN*/
+
+    /*INICIO PORTAFOLIO*/
+    #portafolio{
+      width: 100%;
+      position: relative;
+      background: #c17767;
+  
+    }
+    #portafolio .container{
+      padding: 120px 100px 30px;
+
+      }
+      #portafolio .container h2{
+        position: relative;
+        color:white;
+        font-family: 'Grandstander', cursive;
+        z-index: 1;
+
+      }
+      #portafolio .container img{
+        position: relative;
+        position: relative;
+        margin-top: -80px;
+        margin-left: 10px;
+
+      }
+    .carousel{
+      
+    width: 150%;
+    left: -180px;
+    top: -10px;
+        
+      }
+
+       
+    header .contentheader .row .col-md-8 img{
+      transition: .4s;
+    }
+    header .contentheader .row .col-md-8 img:hover{
+     transform:scale(0.8);
+     
+    }
+    .portafolio-menu .nav-tabs a{
+      position: relative;
+      color: white;
+      font-size: 23px;
+      margin: 5px 3px;
+      border: 1px solid #d9c1ab;
+      font-family: 'Markazi Text', serif;
+      background: #d9c1ab;
+      
+      top:-10px;
+  }
+  .portafolio-menu .nav-tabs{
+    border-bottom: 0px solid transparent;
+  }
+  .portafolio-menu .nav-tabs a.active{
+    background:#D9C7AB;
+    color: #ed3a16 ;
+
+  }
+  #animaciones-tab.nav-link{
+left: 0px;
+  }
+
+  footer{
+    display: block;
+      width: 100%;
+      padding: 20px 0px;
+      text-align: center;
+      background-color: #D9C7AB;
+      color: #c17767;
+      bottom: 0;
+      left: 0;
+      z-index: 1;
+      font-size: 13px;
+  }
+
+  #btn-elemento{
+    position: fixed;
+    top: 225px;
+    z-index: 11;
+    right: -43px;
+    transform: rotate(-90deg);
+    background: #d9c1ab;
+    color: white;
+    padding: 10px 36px;
+    border: none;
+    font-family: 'Markazi Text', serif;
+    font-size: 20px;
+    transition: .4s;
+    outline: none;
+  }
+
+  #btn-elemento.active{
+right: 255px;
+transition: .4s;
+  }
+
+  #cont-colors{
+    position: fixed;
+    z-index: 11;
+    top: 190px;
+    right: -295px;
+    background: white;
+    padding:  20px;
+    transition: .4s;
+  }
+  #cont-colors.active{
+ right: 0;
+ transition: .4s;
+  }
+
+  #cont-colors h3{
+    font-family: 'Grandstander', cursive;
+    font-size: 18px;
+    margin-bottom:20px ;
+    color: #c17767;
+  
+  }
+
+  #cont-colors #azul{
+    width: 35px;
+    height: 35px;
+    border-radius: 50%;
+    border: none;
+    background: #4048C9;
+    outline: none;
+  }
+  #cont-colors #amarillo{
+    width: 35px;
+    height: 35px;
+    border-radius: 50%;
+    border: none;
+    background: #F2CF66;
+    outline: none;
+  }
+  #cont-colors #lila{
+    width: 35px;
+    height: 35px;
+    border-radius: 50%;
+    border: none;
+    background: #B86EBA;
+    outline: none;
+  }
+  #cont-colors #negro{
+    width: 35px;
+    height: 35px;
+    border-radius: 50%;
+    border: none;
+    background: #0F0F0F;
+    outline: none;
+  }
+  #cont-colors #verde{
+    width: 35px;
+    height: 35px;
+    border-radius: 50%;
+    border: none;
+    background: #70A358;
+    outline: none;
+  }
+  #cont-colors #rosa{
+    width: 35px;
+    height: 35px;
+    border-radius: 50%;
+    border: none;
+    background: #d9c1ab;
+    outline: none;
+  }
+
+  /*VARIANTES DE COLORES Y TEMAS*/
+
+  #body.azul header .bg-piel{
+    transition: .4s;
+    background: #4048C9;
+
+  }
+  #body.azul header .contentheader{
+    background: #4048C9;
+
+  }
+  #body.azul header .row .col-md-8.hola .container{
+    background: #666df3;
+  }
+  #body.azul header nav .container .row{
+   background: ;
+ 
+  }
+  #body.azul #btn-elemento{
+    background: #4048C9;
+  }
+  #body.azul #quiensoy{
+    background: #666df3;
+  }
+  #body.azul #habilidades{
+    background: #4048C9;
+  }
+  #body.azul #experiencia{
+    background: #666df3;
+  }
+  #body.azul #experiencia .container2{
+    background: #4048C9;
+  }
+  #body.azul #educacion{
+    background: #4048C9;
+  }
+  #body.azul #portafolio{
+    background:#666df3;
+  }
+  #body.azul .portafolio-menu .nav-tabs a{
+    background: #4048C9;
+  }
+  #body.azul .portafolio-menu {
+    background:;
+  }
+  #body.azul footer{
+    background: #4048C9;
+    color: white;
+  }
+  
+/*amarillo*/
+  #body.amarillo header .bg-piel{
+    transition: .4s;
+    background: #F2CF66;
+
+  }
+  #body.amarillo  header .contentheader{
+    background: #F2CF66;
+
+  }
+  #body.amarillo  header .row .col-md-8.hola .container{
+   
+    background: #F2C53D;
+
+  }
+  #body.amarillo header nav .container .row{
+    background: ;
+  
+   }
+   #body.amarillo #btn-elemento{
+     background:#F2CF66;
+   }
+   #body.amarillo #quiensoy{
+     background:#F2C53D;
+   }
+   #body.amarillo #habilidades{
+     background:#F2CF66;
+   }
+   #body.amarillo #experiencia{
+     background:#F2C53D;
+   }
+   #body.amarillo #experiencia .container2{
+     background:#F2CF66 ;
+   }
+   #body.amarillo #educacion{
+     background: #F2CF66;
+   }
+   #body.amarillo #portafolio{
+     background:#F2C53D;
+   }
+   #body.amarillo .portafolio-menu .nav-tabs a{
+     background:#F2CF66;
+   }
+  
+   #body.amarillo footer{
+     background:#F2CF66;
+     color: white;
+   }
+
+   /*lila*/
+   #body.lila header .bg-piel{
+    transition: .4s;
+    background:#B86EBA;
+
+  }
+  #body.lila  header .contentheader{
+    background:#B86EBA ;
+
+  }
+  #body.lila  header .row .col-md-8.hola .container{
+   
+    background: #703081;
+
+  }
+  #body.lila header nav .container .row{
+    background: ;
+  
+   }
+   #body.lila #btn-elemento{
+     background:#B86EBA;
+   }
+   #body.lila #quiensoy{
+     background:#703081;
+   }
+   #body.lila #habilidades{
+     background:#B86EBA;
+   }
+   #body.lila #experiencia{
+     background:#703081;
+   }
+   #body.lila #experiencia .container2{
+     background:#B86EBA;
+   }
+   #body.lila #educacion{
+     background: #B86EBA;
+   }
+   #body.lila #portafolio{
+     background:#703081;
+   }
+   #body.lila .portafolio-menu .nav-tabs a{
+     background:#B86EBA;
+   }
+  
+   #body.lila footer{
+     background:#B86EBA;
+     color: white;
+   }
+
+ /*NEGRO*/
+ #body.negro header .bg-piel{
+  transition: .4s;
+  background:#0F0F0F;
+
+}
+#body.negro  header .contentheader{
+  background:#0F0F0F;
+
+}
+#body.negro header .row .col-md-8.hola .container{
+ 
+  background: #9C9C9C;
+
+}
+#body.negro header .row .col-md-8.hola .container h1{
+  color: white;
+}
+ #body.negro #btn-elemento{
+   background:#0F0F0F;
+ }
+ #body.negro #quiensoy{
+   background:#9C9C9C;
+ }
+ #body.negro #habilidades{
+   background:#0F0F0F;
+ }
+ #body.negro #experiencia{
+   background:#9C9C9C;
+ }
+ #body.negro #experiencia .container2{
+   background:#0F0F0F;
+ }
+ #body.negro #experiencia .container2 .row .col-md-6.texto1 b{
+  color:#9C9C9C;
+}
+ #body.negro #experiencia .container2 .row .col-md-6.texto2 b{
+   color:#9C9C9C;
+ }
+ #body.negro #educacion{
+   background: #0F0F0F;
+ }
+ #body.negro #educacion .container .row .col-md-4.diploma1 b{
+   color:#9C9C9C ;
+
+ }
+ #body.negro #educacion .container .row .col-md-4.diploma2 b{
+  color:#9C9C9C ;
+
+}
+#body.negro #educacion .container .row .col-md-4.diploma3 b{
+  color:#9C9C9C ;
+
+}
+
+#body.negro #portafolio{
+   background:#9C9C9C;
+ }
+ #body.negro .portafolio-menu .nav-tabs a{
+   background:#0F0F0F;
+ }
+
+ #body.negro footer{
+   background:#0F0F0F;
+   color: white;
+ }
+
+  /*VERDE*/
+  #body.verde header .bg-piel{
+    transition: .4s;
+    background:#70A358;
+  
+  }
+  #body.verde header .contentheader{
+    background:#70A358;
+  
+  }
+  #body.verde header .row .col-md-8.hola .container{
+  
+    background: #AAC091;
+  
+  }
+  
+   #body.verde #btn-elemento{
+     background:#70A358;
+   }
+   #body.verde #quiensoy{
+     background:#AAC091;
+   }
+   #body.verde #habilidades{
+     background:#70A358;
+   }
+   #body.verde #experiencia{
+     background:#AAC091;
+   }
+   #body.verde #experiencia .container2{
+     background:#70A358;
+   }
+  
+   #body.verde #educacion{
+     background:#70A358 ;
+   }
+   
+  
+  #body.verde #portafolio{
+     background:#AAC091;
+   }
+   #body.verde .portafolio-menu .nav-tabs a{
+     background:#70A358;
+   }
+  
+   #body.verde footer{
+     background:#70A358;
+     color: white;
+   }
+   /*rosa*/
+   #body.rosa header .bg-piel{
+    transition: .4s;
+    background:#d9c1ab;
+  
+  }
+  #body.rosa header .contentheader{
+    background:#d9c1ab;
+  
+  }
+  #body.rosa header .row .col-md-8.hola .container{
+  
+    background: #c17767;
+  
+  }
+  
+   #body.rosa #btn-elemento{
+     background:#d9c1ab;
+   }
+   #body.rosa #quiensoy{
+     background:#c17767;
+   }
+   #body.rosa #habilidades{
+     background:#d9c1ab;
+   }
+   #body.rosa #experiencia{
+     background:#c17767;
+   }
+   #body.rosa #experiencia .container2{
+     background:#d9c1ab;
+   }
+  
+   #body.rosa #educacion{
+     background:#d9c1ab ;
+   }
+   
+  
+  #body.rosa #portafolio{
+     background:#c17767;
+   }
+   #body.rosa .portafolio-menu .nav-tabs a{
+     background:#d9c1ab;
+   }
+  
+   #body.rosa footer{
+     background:#d9c1ab;
+     color: white;
+   }
+
+  
+  
+  
+
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+    /*CODIGO RESPONSIVE TABLET*/
+    @media screen and (max-width:1024px) and (min-width:768px){
+      /*header*/
+    header .contentheader{
+     max-width: 100%;
+      }
+    .navbar{
+      max-width: 100%;
+      position: fixed;
+
+      }
+      header .row .col-md-4.retratos img{
+        max-width: 370px;
+        margin-left: 15px;
+      }
+      header .row .col-md-8.hola .container h1 {
+        font-size: 30px;
+        font-size: 40px;
+        padding-left: 100px;
+      }
+    
+    header .row .col-md-8.hola img{
+   
+      margin-left: 370px;
+      max-width: 120px;
+  }
+    /*finheader*/
+
+    /*quiensoy*/
+  #quiensoy .container .row img{
+    
+    width: 350px;
+    margin-top: 150px;
+    right: 4px;
+  }
+
+#quiensoy .container .row .container2 img {
+  width: 265px;
+  right: 150px;
+margin-top: -80px;
+}
+#quiensoy .container .row .container2 h3{
+  right: 215px;
+  font-size: 40px;
+  text-align: center;
+  top: -75px;
+}
+
+#quiensoy .container .row .container2 p{
+  margin-top: 50px;
+}
+
+#quiensoy .container .row .container3 img{
+  bottom: -18px;
+  width: 125%;
+}
+#quiensoy .container .row .container3 h4{
+  right: 230px;
+}
+#quiensoy .container .row .container3 h5{
+  right: 150px;
+}
+/*fin quiensoy*/
+
+/*habilidades*/
+#habilidades .container .row .col-md-6.lado1 img {
+right:-70px;
+}
+#habilidades .container .row .col-md-6.lado2 img {
+  display: none;
+}
+#habilidades .container .row .col-md-6.photoshop h3{
+right: 10px;
+}
+#habilidades .container .row .col-md-6.photoshop img {
+  right: 20px;
+}
+#habilidades .container .row .col-md-6.ilustrator h3 {
+  right: 45px;
+}
+#habilidades .container .row .col-md-6.ilustrator img{
+  right: 50px;
+}
+#habilidades .container .row .col-md-12.habilidades h2 {
+  right: 150px;
+
+  }
+  #habilidades .container .row .col-md-12.habilidades img {
+    right: 195px;
+  }
+  #habilidades .container .row .col-md-6.fotografia h3 {
+    right: 50px;
+  }
+
+#habilidades .container .row .col-md-6.fotografia img {
+right: 50px;
+}
+#habilidades .container .row .col-md-6.ingles h3 {
+  right: 140px;
+}
+#habilidades .container .row .col-md-6.ingles img {
+  right:145px;
+}
+/*fin habilidades*/
+
+/*experiencia*/
+#experiencia .container2{
+  width: 620px;
+  right: 140px;
+}
+#experiencia .container .row .col-md-6.lado4 img {
+  width: 120px;
+  position: relative;
+  left: -230px;
+  top: 90px;
+}
+#experiencia .container .row .col-md-6.lado3 img{
+  position: relative;
+  right: -80px;
+  top: -70px;
+  width: 180px;
+}
+/*fin experiencia*/
+
+/*educación*/
+#educacion .container .row .col-md-4.diploma1 h5 {
+  margin-top: 40px;
+  position: relative;
+  left: 50px;
+}
+#educacion .container .row .col-md-4.diploma1 img {
+  width: 350px;
+  right: -80px;
+  top: 110px;
+}
+#educacion .container .row .col-md-4.diploma2 img {
+  width: 300px;
+  top: -80px;
+  left: 130px
+}
+#educacion .container .row .col-md-4.diploma2 h5 {
+  margin-left: -100px;
+  position: relative;
+  left: 235px;
+  top: -40px;
+}
+#educacion .container .row .col-md-4.diploma3 h5{
+  margin-left: -100px;
+  position: relative;
+  bottom: -440px;
+  right: 140px;
+
+  }
+#educacion .container .row .col-md-4.diploma3 img{
+  width: 300px;
+  margin-top: 320px;
+  right: 290px;
+  bottom: -60px;
+}
+#educacion .container .row .col-md-6.lado5 img{
+  position: relative;
+  right: -40px;
+  top: -400px;
+}
+#educacion .container .row .col-md-6.lado6 img{
+  
+  left: -50px;
+}
+#educacion .container{
+  padding-bottom: 60px;
+}
+/*portafolio*/
+#portafolio .container.text-center{
+
+}
+#portafolio .container nav.portafolio-menu .nav-tabs{
+  position: absolute;
+  left: -130px;
+  top: 30px;
+  right: -10px;
+
+}
+#portafolio .container nav.portafolio-menu #carouselfotografia{
+  left: -240px;
+  margin-top: 20px;
+  width: 245%;
+}
+#portafolio .container nav.portafolio-menu .carousel{
+  width: 800px;
+  position: relative;
+  left: -250px;
+}
+#portafolio .container nav.portafolio-menu .carousel-item img{
+  height: 480px;
+}
+
+
+
+
+
+
+
+}
+ /*RESPONSIVE MOVIL*/
+ @media screen and (max-width:667px) and (min-width:375px){
+
+  /*inicio header*/
+  header .row .col-md-4.retratos img{
+ display: none;
+
+ }
+ header .row .col-md-8.hola .container{
+  left: -10px;
+  width: 112%;
+}
+header .row .col-md-8.hola .container h1{
+  left: -200px;
+  top: 150px;
+  font-size: 40px;
+
+}
+header .row .col-md-8.hola  img{
+  right: 310px;
+  transform: rotate(10deg);
+  width: 130px;
+
+}
+/*fin header*/
+
+/*inicio quiensoy*/
+#quiensoy .container{
+padding-bottom: ;
+}
+#quiensoy .container .row .col-md-6 img{
+  
+width: 165px;
+padding-bottom: -10px;
+top: 45px;
+right: 015px;
+position: absolute;
+}
+
+#quiensoy .container .row .container2 img {
+
+width: 190px;
+  right: -8px;
+  position: absolute;
+  top:-40px;
+}
+#quiensoy .container .row .container2 h3{
+right: 35px;
+  top: -70px;
+  font-size: 28px;
+}
+#quiensoy .container .row .container2 p{
+font-size: 105%;
+position: relative;
+bottom: -175px;
+right: 10px;
+}
+#quiensoy .container .row .container2 p br{
+display: none;
+}
+
+#quiensoy .container .row .container3 img{
+display: none;
+
+}
+#quiensoy .container .row .container3 h4{
+display: none;
+
+}
+#quiensoy .container .row .container3 h5{
+display:none;
+
+}
+/*inicio habilidades*/
+#habilidades .container{
+ margin-bottom: -250px;;
+}
+#habilidades .container .row .col-md-6.photoshop h3{
+  right: 100px;
+  top: 90px;
+  font-size: 25px;
+
+}
+#habilidades .container .row .col-md-6.photoshop img {
+  bottom: -85px;
+  width: 150px;
+  right: 100px;
+}
+#habilidades .container .row .col-md-6.ilustrator h3 {
+  font-size: 25px;
+  left: 15px;
+  bottom: -80px;
+
+
+}
+#habilidades .container .row .col-md-6.ilustrator img{
+  width: 150px;
+  bottom: -80px;
+  left: 10px;
+
+}
+#habilidades .container .row .col-md-12.habilidades h2 {
+  right: 30px;
+  bottom: 545px;
+  font-size: 25px;
+
+
+  }
+  #habilidades .container .row .col-md-12.habilidades img {
+    bottom: 530px;
+    right: 355px;
+    width: 570px;
+
+    
+  }
+  #habilidades .container .row .col-md-6.fotografia h3 {
+    top: -175px;
+    right: 140px;
+ 
+  }
+
+#habilidades .container .row .col-md-6.fotografia img {
+  top: -180px;
+  width: 230px;
+  left: -132px;
+}
+#habilidades .container .row .col-md-6.ingles h3 {
+  top: -255px;
+  left: -135px;
+}
+#habilidades .container .row .col-md-6.ingles img {
+  top: -250px;
+  right: 140px;
+  width: 385px;
+}
+#habilidades .container .row .col-md-6.lado1 img {
+ display: none;
+  }
+  #habilidades .container .row .col-md-6.lado2 img {
+    display: none;
+  }
+  /*fin habilidades*/
+
+  /*inicio experiencia*/
+  #experiencia .container{
+    padding-bottom: 90px;
+  }
+  #experiencia .container1 img{
+    width: 210px;
+    left: -15px;
+  }
+  #experiencia .container1 h2{
+    font-size: 26px;
+    right: -6px;
+  }
+  #experiencia .container2{
+    width: 180%;
+    left: -155px;
+  }
+  #experiencia .container2 .row .col-md-6.texto1 h4{
+font-size: 22px;
+  }
+  #experiencia .container2 .row .col-md-6.imagen1 img{
+    left: -20px;
+    width: 250px;
+    bottom: -150px;
+  }
+  #experiencia .container2 .row .col-md-6.texto2 h4{
+    font-size: 23px;
+    top: -150px;
+    left: -40px;
+      }
+      #experiencia .container2 .row .col-md-6.imagen2 img{
+        width: 250px;
+    bottom: -150px;
+    left: -10px;
+
+        }
+  #experiencia .container .row .col-md-6.lado4 img {
+  display: none;
+  }
+  #experiencia .container .row .col-md-6.lado3 img{
+    display: none;
+  }
+/* fin experiencias*/
+
+/*inicio educación*/
+
+#educacion .container.text-center h2{
+  font-size: 26px;
+}
+#educacion .container.text-center img{
+  left: -40px;
+  width: 240px;
+}
+#educacion .container .row .col-md-4.diploma1 h5 {
+  font-size: 23px;
+  position: relative;
+  right: -50px;
+
+}
+#educacion .container .row .col-md-4.diploma1 img {
+  position: relative;
+  left: 130px;
+  width: 350px;
+}
+#educacion .container .row .col-md-4.diploma2 img {
+  width: 315px;
+  position: relative;
+  left: -40px;
+  top: -40px;
+}
+#educacion .container .row .col-md-4.diploma2 h5 {
+  font-size: 23px;
+  position: relative;
+  right: 0px;
+  top: -35px;
+}
+#educacion .container .row .col-md-4.diploma3 h5{
+  font-size: 23px;
+  position: relative;
+  left: -95px;
+  top: -55px;
+  width: 100%;
+
+
+  }
+#educacion .container .row .col-md-4.diploma3 img{
+  width: 310px;
+  left: -98px;
+  top: -35px;
+
+}
+#educacion .container.text-center{
+  padding-bottom: 60px;
+  padding-top: 100px;
+}
+#educacion .container .row .col-md-6.lado5 img{
+display: none;
+
+}
+#educacion .container .row .col-md-6.lado6 img{
+  
+display: none;
+}
+/*fin educacion*/
+
+/*inicio portafolio*/
+#portafolio .container{
+  padding-top: 100px;
+  padding-bottom: 280px;
+}
+#portafolio .container h2{
+font-size: 26px;
+}
+#portafolio .container img{
+  left: -20px;
+  width: 190px;
+}
+#portafolio .container nav.portafolio-menu .nav-tabs{
+  position: relative;
+    left: -210px;
+    width: max-content;
+    top: -40px;
+}
+a#publicidad-tab.nav-link  {
+  left: -190px;
+  top: 60px;
+
+}
+a#ilustraciones-tab.nav-link{
+  left: 125px;
+  position: absolute;
+  top: 130px;
+
+}
+#portafolio .container nav.portafolio-menu #carouselfotografia{
+  position: absolute;
+  left: -97px;
+  width: 190%;
+  top: 335px;
+
+}
+#portafolio .container nav.portafolio-menu .carousel{
+  width: 380px;
+  left: -197px;
+  position: relative;
+  top: 280px;
+
+}
+#portafolio .container nav.portafolio-menu .carousel-item img{
+  height: 350px;
+}
+
+/*fin responsive movil*/
+
+}
+
+
+
+
+
+
+
+
+   
+
+   
+
+   
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    
+ 
